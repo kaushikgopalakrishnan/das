@@ -1,4 +1,4 @@
 var mongoClient=require('mongojs');
-var dbURL = 'admin@127.0.0.1:27017/das';
-var collections = ['doctors'];
-exports.db = mongoClient.connect(dbURL,collections);
+var fs = require('fs');
+var db = JSON.parse(fs.readFileSync(__dirname+'/../../resources/database-config.json', 'utf8'));
+exports.db = mongoClient.connect(db.url,db.collections);

@@ -7,6 +7,7 @@
 var express    = require('express');    // call express
 var app        = express();         // define our app using express
 var bodyParser = require('body-parser');
+console.log(__dirname);
 
 // Doctor Appoitment System Service
 var dasRouter = require('./routes/DASRouter');
