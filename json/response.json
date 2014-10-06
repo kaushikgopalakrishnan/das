@@ -1,0 +1,13 @@
+{
+    "dasHeader": {
+        "sessionID": "sampleID",
+        "responseDt": 20140101
+    },
+    "dasBody": {
+        "data": "data"
+    },
+    "dasError": {
+        "errorCode": "10",
+        "errorDesc": "some error"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "doctorName": "sample doctor",
+    "gender": "m",
+    "speciality": "house surgeon",
+    "salutation": "mr",
+    "phoneDetails": [
+        {
+            "number": "909090",
+            "type": "clinic",
+            "isPreferred": "y"
+        },
+        {
+            "number": "909091",
+            "type": "mobile",
+            "isPreferred": "n"
+        }
+    ],
+    "emailDetails": [
+        {
+            "id": "abc@xyz.com",
+            "isPreferred": "y"
+        }
+    ],
+    "addressDetails": [
+        {
+            "address": "123 sample address",
+            "area": "sample area",
+            "city": "sample city",
+            "state": "sample state",
+            "country": "sample country",
+            "latittude": "12344",
+            "longitude": "1233",
+            "type": "clinic",
+            "name": "sample name"
+        }
+    ],
+    "qualification": [
+        "MBBS",
+        "FRCS"
+    ]
+}

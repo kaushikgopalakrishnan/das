@@ -1,0 +1,7 @@
+use das;
+
+db.createCollection("doctors",{autoIndexID:true});
+
+
+
+
